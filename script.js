@@ -36,8 +36,8 @@ box2.addEventListener("click", () => {
 box3.addEventListener("click", () => {
     if (box3.innerHTML == "") {
         box3.innerHTML = player;
-        changeTurn();
         winCheck(box1, box2, box3);
+        changeTurn();
         winCheck(box4, box5, box6);
     }
 });
@@ -87,7 +87,7 @@ box9.addEventListener("click", () => {
     
 // }
 
-let newGame = () => {    // function to reset the game
+let newBoard = () => {    // function to reset the game
     box1.innerHTML = "";
     box2.innerHTML = "";
     box3.innerHTML = "";

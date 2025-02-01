@@ -7,6 +7,12 @@ h1 {
     font-size: 36px;
     text-align: center;
 }
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 24px;
+}
 #board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -23,10 +29,18 @@ h1 {
     font-size: 48px;
     border: 2px solid black;
 }
-#reset {
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#reset , #newGame {
     display: block;
     margin: 20px auto;
-    font-size: 24px;
+    font-size: 18px;
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;

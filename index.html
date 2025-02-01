@@ -8,6 +8,11 @@
 </head>
 <body>
     <h1>Tic Tac Toe</h1>
+    <div id="scoreboard">
+        <p class="text">Player 1: <span id="player1"></span></p>
+        <p class="text">Match Draw: <span id="draw"></span></p>
+        <p class="text">Player 2: <span id="player2"></span></p>
+    </div>
     <div id="board">
         <div class="box" id="box1"></div>
         <div class="box" id="box2"></div>
@@ -19,7 +24,10 @@
         <div class="box" id="box8"></div>
         <div class="box" id="box9"></div>
     </div>
-    <button id="reset" onclick="newGame()">Reset</button>
+    <div id="buttons">
+        <button id="newGame" onclick="newGame()">New Game</button>
+        <button id="reset" onclick="newBoard()">Reset Board</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
