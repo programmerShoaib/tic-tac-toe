@@ -1,4 +1,4 @@
 # tic tac toe
-$auther => Shoaib
+$auther => Shoaib <br>
 $date => 2025-02-01
 
